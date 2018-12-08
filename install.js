@@ -1,10 +1,10 @@
 var sast = document.createElement("link");
-sast.setAttribute("href", "https://rawgit.com/Iwotastic/Scratch-Boost/master/src/sweetalert.css");
+sast.setAttribute("href", "https://cdn.jsdelivr.net/gh/Iwotastic/Scratch-Boost/src/sweetalert.css");
 sast.setAttribute("rel", "stylesheet");
 sast.setAttribute("type", "text/css");
 document.head.appendChild(sast);
 var sasc = document.createElement("script");
-sasc.setAttribute("src", "https://rawgit.com/Iwotastic/Scratch-Boost/master/src/sweetalert.min.js");
+sasc.setAttribute("src", "https://cdn.jsdelivr.net/gh/Iwotastic/Scratch-Boost/src/sweetalert.min.js");
 document.body.appendChild(sasc);
 /* load TV */
 ScratchExtensions.loadExternalJS("https://rawgit.com/Oskartblcrrzzka/TVAPI-for-scratch/livetv.js");
